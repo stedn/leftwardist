@@ -5,8 +5,8 @@
     <description>make the world more equitable, any bit at a time</description>
     <link>https://leftwardist.org/</link>
     <atom:link href="https://leftwardist.org/feed/index.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Aug 2021 19:23:39 -0700</pubDate>
-    <lastBuildDate>Sat, 21 Aug 2021 19:23:39 -0700</lastBuildDate>
+    <pubDate>Sat, 21 Aug 2021 20:14:38 -0700</pubDate>
+    <lastBuildDate>Sat, 21 Aug 2021 20:14:38 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       
@@ -336,6 +336,269 @@
       
         <item>
           
+            <title>Class Warfare Chess Prototype</title>
+          
+          <author>leftwardist@gmail.com (The Leftwardist)</author>
+          <description>
+            &lt;p&gt;The narrative embedded in the classic chess board is obvious. Two rows of unskilled and expendable pawns face off to protect the interests of the more talented nobility. All sacrificing everything to protect a bumbling ineffectual king.&lt;/p&gt;
+
+&lt;p&gt;Well not anymore. It’s time to flip the tables.&lt;/p&gt;
+
+&lt;p&gt;I wrote new rules for chess that pits the pawns against the nobles. But in this game, the nobles only maintain their special moves if they can keep the pawns in their place. You can play the game online with a friend here. Read on to learn more about the rules.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-rules-of-the-game&quot;&gt;The Rules of the Game&lt;/h4&gt;
+
+&lt;p&gt;Here are the rules we’ve come up with for the first edition.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The game is played on only one half of the board (8x4), with one row of proletariat pieces (pawns) on one side and the opposite color’s bourgeoisie pieces (non-pawns) on the other side.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;img alt=&quot;Class Warfare Chess Board&quot; src=&quot;/assets/images/2021/chess1.png&quot; /&gt;
+  &lt;figcaption&gt;
+    Class Warfare Chess Initial Game Setup
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Proletariat pieces (pawns) move like regular pawns.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For bourgeoisie pieces (non-pawns), we refer to the squares opposite to their type’s starting position as that type’s “factory squares.” As an example, here are the factory squares for the rooks.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;img alt=&quot;Class Warfare Chess Board&quot; src=&quot;/assets/images/2021/chess2.png&quot; /&gt;
+  &lt;figcaption&gt;
+    Factory Squares for Rooks
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;When both of the factory squares for a given type are occupied, then those bourgeoisie pieces move as in normal chess. However, if either factory square is empty, then the corresponding type moves just like a regular pawn. For example, both rooks can move like rooks only if the squares opposite to both rooks (the rooks’ factories) are occupied.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;img alt=&quot;Class Warfare Chess Board&quot; src=&quot;/assets/images/2021/chess3.png&quot; /&gt;
+  &lt;figcaption&gt;
+    Allowed moves for rook when both factory squares occupied
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;However, if either of those two positions are not occupied, then the rook operates like pawn. Here, the far away pawn moved out of the factory so now the rook can only move forward one space.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;img alt=&quot;Class Warfare Chess Board&quot; src=&quot;/assets/images/2021/chess4.png&quot; /&gt;
+  &lt;figcaption&gt;
+    Rook moves as a pawn because bottom left factory square is empty
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The queen’s factory squares are the ones across from her and the king. The king has no factory and always moves like the king.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;img alt=&quot;Class Warfare Chess Board&quot; src=&quot;/assets/images/2021/chess5.png&quot; /&gt;
+  &lt;figcaption&gt;
+    Two central squares are the factory squares for queen
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;If a proletariat piece is captured in a column with an unoccupied factory square, then the proletariat will not be removed from the board. Instead it will just be returned to the factory square.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;img alt=&quot;Class Warfare Chess Board&quot; src=&quot;/assets/images/2021/chess6.gif&quot; /&gt;
+  &lt;figcaption&gt;
+    Proletariat captured in column without occupied factory is returned to factory rather than removed from play.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;However, if the column’s factory square is already occupied, then the proletariat is removed from play when captured.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;img alt=&quot;Class Warfare Chess Board&quot; src=&quot;/assets/images/2021/chess7.gif&quot; /&gt;
+  &lt;figcaption&gt;
+    Proletariat captured in colun with occupied factory removed from play.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Finally, if a proletariat piece reaches the farthest row then it can move side-to-side along the back one square at a time for both capturing or moving. However, it cannot move off the back row.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;img alt=&quot;Class Warfare Chess Board&quot; src=&quot;/assets/images/2021/chess8.gif&quot; /&gt;
+  &lt;figcaption&gt;
+    Proletariat along furthest edge goes side-to-side, moving or attacking.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Those are all the basic rules of gameplay in this version. If you just want to play the game you can play &lt;a href=&quot;https://bonkerfield.org/chess.html&quot;&gt;Class Warfare Chess&lt;/a&gt;. Read on to learn more about the meaning behind the game.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-philosophy-of-class-warfare-chess&quot;&gt;The Philosophy of Class Warfare Chess&lt;/h4&gt;
+
+&lt;p&gt;We developed this game to teach two specific lessons about class consciousness.&lt;/p&gt;
+
+&lt;p&gt;The first lesson is that the special abilities that we seem to ascribe to our rulers are only possible because of the work that we do for them. Successful business persons and politicians are often only successful because they have a team of people who are having their efforts extracted from them for less than they are worth. That’s why in the game, the moment the worker walks away from their “factory squares,” the owners’ special power disintegrates and they become just a regular pawn. In that sense, the major challenge of this game and of our collective struggle is to coordinate our resistance to overcome the owner’s systems of oppression.&lt;/p&gt;
+
+&lt;p&gt;The second lesson that I wanted to show was the focus on artificial political ties in standard chess. In regular chess, pawns fight for the king of the same color, which is the same way our real-life social and political tribalism works. These distinctions mask the great similarity between working people around the world. A working class person in the US is way more similar to a working class person in China than either are to the people who rule over them, but political divisions are drawn so that we don’t see our universal humanity. Similarly the divisions between working class Republican and Democratic also mask our shared struggle to overcome our exploitation.&lt;/p&gt;
+
+&lt;p&gt;This lesson becomes even more clear in the advanced version of the game. In the advanced version, you actually play with the whole board, but the black and white pieces don’t fight anymore: it’s all the pawns vs all the masters.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img alt=&quot;Class Warfare Chess Board&quot; src=&quot;/assets/images/2021/chess9.jpeg&quot; /&gt;
+  &lt;figcaption&gt;
+    Full Board
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I haven’t yet built an online version with that format, but if you have your own chessboard, you can play it using the same rules defined above. The only modification is that any of the bourgeoisie pieces can move to either side while the proletariat can’t pass the central line. The implication in this version is that the proletariat from all corners of the world need to come together to bring down the ruling class.&lt;/p&gt;
+
+&lt;h3 id=&quot;onward-comrades&quot;&gt;Onward Comrades!&lt;/h3&gt;
+
+&lt;p&gt;We just invented this game and, as such, we don’t fully understand all its nuances. We expect over time we’ll modify the rules to optimize play. Make sure to let us know how it goes for you.&lt;/p&gt;
+
+          </description>
+          <pubDate>Thu, 13 May 2021 00:00:00 -0700</pubDate>
+          <link>https://leftwardist.org/commentary/2021/05/13/chess-v1.html</link>
+          <guid isPermaLink="true">https://leftwardist.org/commentary/2021/05/13/chess-v1.html</guid>
+          
+          
+          <category>commentary</category>
+          
+        </item>
+      
+    
+      
+        <item>
+          
+            <title>Three parts to changing the world</title>
+          
+          <author>leftwardist@gmail.com (The Leftwardist)</author>
+          <description>
+            &lt;p&gt;The process of changing the world has 3 interrelated parts:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Acknowledge where we are&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Define where we want to be&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Take steps to move in the right direction&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In this essay I want to go into why it’s important to remember that all 3 parts have a place and not to let 1 part dominate the others.&lt;/p&gt;
+
+&lt;h4 id=&quot;criticism-acknowledging-where-we-are&quot;&gt;Criticism: acknowledging where we are&lt;/h4&gt;
+
+&lt;p&gt;Some academics and activists will focus themselves particularly on the first point, drawing much needed attention to the dire consequences of the existing racist, exploitative systems that we deal with every day. Without this type of criticism, we could never hope to understand our world well enough to change it for the better.&lt;/p&gt;
+
+&lt;p&gt;But what happens if criticism is all we have. Then when would we ever find ways to actually fix things?&lt;/p&gt;
+
+&lt;h4 id=&quot;dreaming-defining-where-we-want-to-be&quot;&gt;Dreaming: defining where we want to be&lt;/h4&gt;
+
+&lt;p&gt;Beautifully imaginative stories about our possible futures are so important. This can take the form of utopian visions of a collective society (eg solarpunk) or novel democratic or economic models from academics (eg UBI).&lt;/p&gt;
+
+&lt;p&gt;But it can also be a problem to have too much utopian theorizing in the absence of our current lived reality.&lt;/p&gt;
+
+&lt;h4 id=&quot;action-taking-steps-to-move-in-the-right-direction&quot;&gt;Action: taking steps to move in the right direction&lt;/h4&gt;
+
+&lt;p&gt;To change the world, we have to take the tangible steps to ameliorate our current condition and actualize our ambitious goals. This can take the form of small-scale personal habits or directly spearheading major policy changes. Although many actions will fail, collectively following through to make those changes is what results in substantive changes in the way our world functions.&lt;/p&gt;
+
+&lt;p&gt;But this is still just one equally important part of the process. It’s important to not get too fixated on tangible steps because sometimes this process-focus can cause changes that &lt;em&gt;feel&lt;/em&gt; useful to morph into a spinning hamster wheel that can actually be counterproductive and burn us out.&lt;/p&gt;
+
+&lt;h3 id=&quot;goal-find-balance&quot;&gt;Goal: find balance&lt;/h3&gt;
+
+&lt;p&gt;This post is an attempt to warn members of the leftist movement that they can sometimes seem focusing too much on one part of the process at the detriment of others. As one example, I sometimes see leftists get so addicted to hot takes that they forget to mention any solutions to the problems they see. Other times, I might see someone spending a lot of time articulating imagined perfect utopias without acknowledging the gap between those suggestions and .&lt;/p&gt;
+
+&lt;p&gt;This isn’t to suggest that those things should all be avoided, but just to keep in mind not to take any one of them too seriously on its own all the time.&lt;/p&gt;
+
+&lt;h4 id=&quot;practicing-balance&quot;&gt;Practicing Balance&lt;/h4&gt;
+&lt;p&gt;Thus far in this essay, I’ve only focused on criticizing the way I see the left acting (how ironic!). To heed my own advice I’m going to make a suggestion for incremental actions that we can all take to keep this balance. And during this next week, I’ll actively put these into practice to try to develop these habits.&lt;/p&gt;
+
+&lt;h6 id=&quot;1-assess-which-parts-you-favor&quot;&gt;1. Assess which parts you favor&lt;/h6&gt;
+&lt;p&gt;While we’re thinking about it, lets take a personal inventory.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do you often find yourself myself on social media writing posts trashing billionaires?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do you spend a lot of time reading econ experiments tested in the lab and extrapolated to hypothetical global economic systems?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do you spend all of your time signing petitions, canvassing for politicians, or researching which non-profit to donate to&amp;gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are many ways to focus on criticism, dreams, or actions. Take stock of where you think you’d fall on this diagram.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img alt=&quot;Triangle with the words action, criticism, and dreams in each corner&quot; src=&quot;/assets/images/2021/traingle.png&quot; /&gt;
+  &lt;figcaption&gt;
+    Three Parts to Changing the World Diagram
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Is this the right balance you intend to have?&lt;/p&gt;
+
+&lt;h6 id=&quot;2-measure-and-shift&quot;&gt;2. Measure and shift&lt;/h6&gt;
+&lt;p&gt;Over the next few days, lets take special note of which activities we’re engaging in most. And if you feel yourself drawn to engage in something you automatically favor, try to redirect that time to something you normally avoid. Some examples:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you normally spend 1 hour reading Marxist criticism, try spending 30 minutes researching collectivist economic theories like those of Elinor Ostrom as well.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you spend every weekend taking direct action, try spending one evening watching some #leftist TikToks.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At the end of the week compare how you spent your time on the diagram above. Were you closer to the balance you think is ideal for you?&lt;/p&gt;
+
+&lt;h6 id=&quot;3-relate-to-friends&quot;&gt;3. Relate to friends&lt;/h6&gt;
+&lt;p&gt;Finally, try relating your understanding of your own balance to others in your social circles. Try to take the approach where you are not criticizing them, but just trying to help them achieve their goals. Some examples:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you have a friend who is always hard at work campaigning, encourage them to imagine their ideal world and see if they can map out how their actions are taking them in that direction.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you see an influencer repeatedly slamming corporations, send them a message asking what actions are they taking in their daily life to fight corporate power.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Remember to be polite and come from a place of respect and helpfulness. Respect everyone’s hard work and try to bring joy and positive reflection with this effort.&lt;/p&gt;
+
+&lt;p&gt;Feel free to share this article if it inspires you to reassess your balance in advocating for a more equitable world. And never be afraid to learn more and change approach to meet your goals. That’s what leftwardism is all about.&lt;/p&gt;
+
+          </description>
+          <pubDate>Wed, 05 May 2021 00:00:00 -0700</pubDate>
+          <link>https://leftwardist.org/commentary/2021/05/05/three-parts.html</link>
+          <guid isPermaLink="true">https://leftwardist.org/commentary/2021/05/05/three-parts.html</guid>
+          
+          
+          <category>commentary</category>
+          
+        </item>
+      
+    
+      
+        <item>
+          
             <title>Who Owns the Redwoods?</title>
           
           <author>leftwardist@gmail.com (The Leftwardist)</author>
@@ -348,6 +611,123 @@
           <pubDate>Sat, 01 May 2021 00:00:00 -0700</pubDate>
           <link>https://leftwardist.org/commentary/2021/05/01/redwoods.html</link>
           <guid isPermaLink="true">https://leftwardist.org/commentary/2021/05/01/redwoods.html</guid>
+          
+          
+          <category>commentary</category>
+          
+        </item>
+      
+    
+      
+        <item>
+          
+            <title>More equal rights, more equal power</title>
+          
+          <author>leftwardist@gmail.com (The Leftwardist)</author>
+          <description>
+            &lt;p&gt;On tiktok and twitter, I’m seeing the hashtag #leftist trending for the first time in my life. People are coming out of the woodwork showing off their leftist pride. So what does it mean to be a leftist? Do you want to know if you might be a leftist?&lt;/p&gt;
+
+&lt;p&gt;Sometimes people try to overcomplicate this question, but I’m a simple guy when it comes these ideas. So in this post I want to describe what it means to be a leftist in simple general terms. There are lots of nuanced ways to be a leftist, but they are all united by a single big idea: equality.&lt;/p&gt;
+
+&lt;p&gt;To start, lets break down the first sentence of the wikipedia article on leftism (aka left-wing politics).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Left-wing politics supports social equality and egalitarianism, often in critique of social hierarchy.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The first part of this sentence says that leftists support social equality and egalitarianism. These are two words that both mean that all people are fundamentally equal in our social worth. This can take a lot of forms, but normally it means that all people in a society should have equal rights and equal access to the most important things in society, like a right to vote, a right to clean water, a right to fair employment, and the right to be served by businesses regardless of your race, religion, gender identity or anything else.&lt;/p&gt;
+
+&lt;p&gt;The ideas of leftism stand in contrast to more traditional notions of a natural social hierarchy. To be a leftist means you oppose rigid social structures that preclude certain people from having access to certain basic rights.&lt;/p&gt;
+
+&lt;p&gt;When stated this way, most people tend to agree that leftist principles are really good for society. So why isn’t everybody a leftist? There are generally two reasons that some people offer to oppose leftist ideas:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;They believe that a certain amount of hierarchy is good for society.&lt;/li&gt;
+  &lt;li&gt;They believe that we have already achieved the proper level of equality.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, I can’t tell you whether you should believe either of those ideas, but I can tell you that for me, believing some people deserve more than others feels fundamentally wrong. This is a personal intution I have that tells me that no one should have to suffer more than anyone else, and no one should have access to a lot more than anybody else. Looking at our society, I feel that we are still far away from a fair amount of equality, particularly when we look at the &lt;strong&gt;distribution of power&lt;/strong&gt; in our society.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-equality-without-equal-power&quot;&gt;What is equality without equal power?&lt;/h4&gt;
+
+&lt;p&gt;One of the most complicated challenges of leftism is to try to explain what it means for people to be treated equally. Many people wonder just how “equal” the world would be under leftism. As an individual, you will need to define for yourself just how much equality you want to see in the world. But for me, I think that equality is only meaningful once everyone has equal decision-making power.&lt;/p&gt;
+
+&lt;p&gt;What do I mean by equal decision making power? One might think that living in a democracy automatically satisfies equal decision-making power, but there are a few reasons why that isn’t quite enough. For starters, in a representative democracy like the United States, the way local, state and federal regulations tie together, along with the discrepancy in representation due to the electoral college means that the value of a vote is not equal depending on who you are. Also, many people who live in our country are not allowed to participate in our democracy for many arbitrary reasons.&lt;/p&gt;
+
+&lt;p&gt;But even if those legal details of representative governance were fixed, we know that in practice, the systems in our country are fundamentally opposed to equal power for all those in our society. For starters, we’ve all learned this past year that certain groups in our society, like African-Americans and Hispanic-Americans, still don’t have truly equal worth in the eyes of our criminal justice system. And our healthcare and employement systems still exhibit these unfair distributions of power that disadvantage women and gender non-conforming people too. Part of being a leftist is acknowledging that social hierarchies that allow these injustices are still imposed by our systems in this country, and that it is imperative to combat racism, sexism, and all kinds of discrimination everywhere we see them.&lt;/p&gt;
+
+&lt;p&gt;Finally, our economic system is another a major part of our lives where power is very unequally distributed. This is one of the big problem that leftism seeks to address today: that people with outsized economic assets (aka lots of money) have uneven power in our society. You can see this in a number of ways if you pay attention. As a small scale example, if you live in an apartment, who decides how many windows are in your building or whether your building is properly insulated or the color of the outside? Not you, the person living there, but the person or organization with enough money to buy the apartment building. For another example, even though electric cars have existed since the 19th century, you and I probably couldn’t buy one until recently simply because for a long time very, wealthy investors decided to invest in conventional cars instead of electric. Or for one more example, many people would love to start careers that restore the environment and protect people, but because they don’t have the means to finance their own work, they must work for a wealthy individual or corporation who is looking for employees, often at large companies like Amazon, Uber, or Walmart.&lt;/p&gt;
+
+&lt;p&gt;In other words, some people have very wide choices about what they can do, while others are only allowed to choose from a very narrow list of options. This is a highly corrosive form of inequality, that leftists today are trying to figure out how to dismantle.&lt;/p&gt;
+
+&lt;h4 id=&quot;so-where-to-go-from-here&quot;&gt;So where to go from here?&lt;/h4&gt;
+
+&lt;p&gt;If you think that imbalances in power should be alleviated, you might want to consider yourself a leftist. If so, that’s great! And if you’re not there, that is cool too. Part of leftism is acknowledging your autonomy to make these kinds of decisions for yourself as an informed member of society. Importantly, even if you think full out leftism is too much, just remember that here at The Leftwardist, just by thinking that the world should become even any one little bit more equal, you can always consider yourself a leftwardist.&lt;/p&gt;
+
+&lt;p&gt;:)&lt;/p&gt;
+
+          </description>
+          <pubDate>Wed, 28 Apr 2021 00:00:00 -0700</pubDate>
+          <link>https://leftwardist.org/commentary/2021/04/28/equal.html</link>
+          <guid isPermaLink="true">https://leftwardist.org/commentary/2021/04/28/equal.html</guid>
+          
+          
+          <category>commentary</category>
+          
+        </item>
+      
+    
+      
+        <item>
+          
+            <title>An introduction to directional radicalism</title>
+          
+          <author>leftwardist@gmail.com (The Leftwardist)</author>
+          <description>
+            &lt;p&gt;You might be like me. I’m a millennial living in the US, worried about being a good person and surviving. I was raised to think that politics was mostly just a mess that should be ignored, and that being “into politics” meant you were always pushing your own agenda. I thought politics was working right when Obama was in the White House and I could ignore it. I didn’t like the results in 2016, but, at the time, I thought the US was still a fundamentally fair and decent country.&lt;/p&gt;
+
+&lt;p&gt;In 2020 though, I started to realize how fundamental messed up the United States and its history really is. I started studying racial and class politics and history. I knew that I wanted the world to be more equitable, more fair, but I couldn’t understand why that had been so hard to get to. Where were all these greedy people that I’d never met? Then, I started to realize that a lot of lowkey, normal things that were a part of my life were at least partially contributing to how unjust the world was. When I thought about them carefully, a lot of things that I’d believed in my whole life were just fundamentally at odds with the kind of just world I want to live in.&lt;/p&gt;
+
+&lt;p&gt;Eventually, I arrived at &lt;em&gt;the left&lt;/em&gt;. Not the nice cozy centrist-liberalism that I’d grown into in my 20s, but like the “get rid of capitalism” lefty left. Some of the leftist ideas make a lot of sense to me, and some of them will still take time for me to understand. But as I’ve explored, I’ve already seen a big problem with the way people on the left deal with people who are just in the “little bit leftward of center” region of the political spectrum.&lt;/p&gt;
+
+&lt;p&gt;And I’m starting to suspect that this problem is at least part of the reason that the world seems to keep getting &lt;em&gt;less&lt;/em&gt; equitable over time.&lt;/p&gt;
+
+&lt;p&gt;I’ll set the scene. It’s Friday night, I have some free time, and I want to learn more and get better acquianted with a new idea. I browse a leftist subreddit or drop into a Twitter thread. I read an article that makes me think. Then, when I’m done with the article, I scroll down and read the comments. Twitter, reddit, personal blogs, the comments all look about the same.&lt;/p&gt;
+
+&lt;p&gt;“Yes, I agree with you, BUT have you instead considered my particular form of idiosyncratic means to reach a similar but perhaps slightly different end.”&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;“That isn’t real progressivism though.”&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;“Lets just eat the rich instead.”&lt;/p&gt;
+
+&lt;p&gt;And then there’s the comments on those comments, deriding someone for misreading something. Everyone telling everyone else that they are arguing in bad faith. The ones between Democrats and Republicans are understandable since there’s longstanding partisanship there. But the strange part is when I see a Green Party person arguing with a Bernie bro.&lt;/p&gt;
+
+&lt;p&gt;Now debate is no problem. After all, liberals and leftists in general likes complex ideas and have some attitude, so we’re always going to want to debate things. But why the rancor between people who basically agree in the grand scheme of things?&lt;/p&gt;
+
+&lt;p&gt;I think the discourse is emotionally pitting people against each other who are really pretty much aligned. I think part of this is that we’ve all been trained by algorithms to beef with each other because that garners attention, but that is a subject for another article. Whatever the cause, nowadays every momentary interaction leaves you with your defenses up at all times. And this diminishes the solidarity and connectedness of humans that is the whole point of being a leftist in the first place.&lt;/p&gt;
+
+&lt;p&gt;And there’s a reason this is a big problem. A lot of people (like me) don’t think we know exactly which heterodox economic policy is going to &lt;em&gt;solve everything&lt;/em&gt;. We just know that what we have now is bad and that we should add more things that just &lt;strong&gt;give more to people who have less&lt;/strong&gt;. So a silent population that could be more active stays in the dark because we are uncomfortable trying to advocate for things when we are constantly being berated from both sides on everything.&lt;/p&gt;
+
+&lt;p&gt;Now, I’m not proposing to diminish all the nuances in any way. At some point, we may need to make some distinctions between different brands of leftist and liberal politics. But for a lot of the really radical ideas, we are a long way from reaching them. And people need changes in the right direction today. So I’m trying to advocate for directional radicalism. It’s a common sense stance that doesn’t try to look ahead to distant ideals about the way society should function. Instead, it just suggests that you move, even in small ways, in the same direction as others who are looking for a radical transformation toward equality.&lt;/p&gt;
+
+&lt;p&gt;To help with this, I’m trying to create a broadly defined political label: leftwardist. A leftwardist is a person who works in solidarity with other people to move the world greater equality compared with where it is today. I’m going to be exploring what it means to be a leftwardist in this newsletter, but it starts with a recognition that being a leftwardist doesn’t have to conflict with more particular beliefs as long as you agree that the world has too much inequity today. This means you can call your self a leftwardist without diminishing your allegiance to any of the myriad other socio-economic-political ideologies out there. The label just suggests that you are open to accepting the commonalities that run all the way from full blown communism to just left of center liberalism.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The fundamental question is this. Do you think that the world should be any little tiny bit more equitable in any way than it is now?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Should one more poor person be able to afford healthcare? Should Jeff Bezos have to give one more dollar in taxes to help pay for the public roads that his company benefits from? Should one more person get the right to vote in the democracy that governs them?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If so, you might be a leftwardist.&lt;/em&gt;&lt;/p&gt;
+
+          </description>
+          <pubDate>Thu, 01 Apr 2021 00:00:00 -0700</pubDate>
+          <link>https://leftwardist.org/commentary/2021/04/01/intro.html</link>
+          <guid isPermaLink="true">https://leftwardist.org/commentary/2021/04/01/intro.html</guid>
           
           
           <category>commentary</category>
