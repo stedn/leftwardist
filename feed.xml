@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>The Leftwardist</title>
     <description>make the world more equitable, any bit at a time</description>
     <link>https://leftwardist.org//</link>
     <atom:link href="https://leftwardist.org/feed/index.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Aug 2021 17:21:49 -0700</pubDate>
-    <lastBuildDate>Sat, 21 Aug 2021 17:21:49 -0700</lastBuildDate>
+    <pubDate>Sat, 21 Aug 2021 17:29:29 -0700</pubDate>
+    <lastBuildDate>Sat, 21 Aug 2021 17:29:29 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       
