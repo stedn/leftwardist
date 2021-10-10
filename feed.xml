@@ -5,8 +5,8 @@
     <description>To imagine a more equitable and sustainable world</description>
     <link>https://leftwardist.org/</link>
     <atom:link href="https://leftwardist.org/feed/index.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Oct 2021 14:35:26 -0700</pubDate>
-    <lastBuildDate>Sun, 10 Oct 2021 14:35:26 -0700</lastBuildDate>
+    <pubDate>Sun, 10 Oct 2021 14:52:58 -0700</pubDate>
+    <lastBuildDate>Sun, 10 Oct 2021 14:52:58 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       
@@ -63,10 +63,11 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Worker pieces (red pawns) mostly move like regular pawns (move 1 space, attack on the diagonal) from the outside inward.  However, once a pawn reaches the middle two rows (rows 4 and 5) they switch from moving like pawns to moving like a king (move or attack in any direction). If the pawn in the center rows then moves back out to either of the outside 3 rows (1-3 or 6-8), it goes back to acting like a pawn on that side again.  (Note that when a Capitalist piece is converted to a pawn it doesn’t move like a king in the center rows.)
-&lt;img alt=&quot;General Strike Chess Pawn Motion&quot; src=&quot;/assets/images/2021/chess_pawn.gif&quot; /&gt;&lt;/p&gt;
+&lt;img style=&quot;max-width:300px;&quot; alt=&quot;General Strike Chess Pawn Motion&quot; src=&quot;/assets/images/2021/chess_pawn.gif&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Importantly, when Capitalist pieces “take” Worker pawns, the pawns aren’t necessarily removed from the board. If the pawn is taken in a column with an unoccupied factory, then the pawn is immediately returned to that factory (if both factories are unoccupied it is returned to row 1 by default).  However, if the pawn is taken in a column where the factories are already both occupied, then the pawn IS removed from the game.  When Worker pieces take Capitalist pieces, the Capitalist piece is removed from the game.&lt;/p&gt;
+    &lt;p&gt;Importantly, when Capitalist pieces “take” Worker pawns, the pawns aren’t necessarily removed from the board. If the pawn is taken in a column with an unoccupied factory, then the pawn is immediately returned to that factory (if both factories are unoccupied it is returned to row 1 by default).  However, if the pawn is taken in a column where the factories are already both occupied, then the pawn IS removed from the game.  When Worker pieces take Capitalist pieces, the Capitalist piece is removed from the game.
+&lt;img style=&quot;max-width:300px;&quot; alt=&quot;General Strike Chess Taking a Pawn&quot; src=&quot;/assets/images/2021/chess_take_pawn.gif&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Finally, the king is not affected by the factories, and always continues to move as a standard king. However, the king is not allowed to move outside of the middle two rows of the gameboard (rows 4 and 5).&lt;/p&gt;
