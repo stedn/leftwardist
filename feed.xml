@@ -5,8 +5,8 @@
     <description>To imagine a more equitable and sustainable world</description>
     <link>https://leftwardist.org/</link>
     <atom:link href="https://leftwardist.org/feed/index.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 30 Dec 2021 11:17:17 -0600</pubDate>
-    <lastBuildDate>Thu, 30 Dec 2021 11:17:17 -0600</lastBuildDate>
+    <pubDate>Thu, 30 Dec 2021 11:29:07 -0600</pubDate>
+    <lastBuildDate>Thu, 30 Dec 2021 11:29:07 -0600</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       
@@ -104,89 +104,6 @@
           <pubDate>Wed, 27 Oct 2021 00:00:00 -0500</pubDate>
           <link>https://leftwardist.org/commentary/2021/10/27/market-socialism-1.html</link>
           <guid isPermaLink="true">https://leftwardist.org/commentary/2021/10/27/market-socialism-1.html</guid>
-          
-          
-          <category>commentary</category>
-          
-        </item>
-      
-    
-      
-        <item>
-          
-            <title>Utility Maximization and Socialism</title>
-          
-          <author>leftwardist@gmail.com (The Leftwardist)</author>
-          <description>
-            &lt;p&gt;While there are compelling moral arguments for greater equality in society, it’s perhaps more interesting that there are actually really pragmatic arguments for why greater equality is actually beneficial.&lt;/p&gt;
-
-&lt;p&gt;Let me ask you a question. Imagine there are 100 million people with $100 to spend on books, and 6 billion people with $1 to spend on dental care to save their teeth.  Assuming both business options have the same cost, which business do you decide to start?&lt;/p&gt;
-
-&lt;h3 id=&quot;the-vicious-cycle-of-resource-deprivation-in-capitalism&quot;&gt;The vicious cycle of resource deprivation in capitalism&lt;/h3&gt;
-
-&lt;p&gt;Now it might not be quite clear what I’m driving at here so let me elaborate.  The above scenario is basically what has happened in the case of Amazon.  Jeff Bezos started his company with the knowledge that a lot of people would want to buy books online.  But importantly, he knew that those people already had plenty of money to buy those books. That was an implicit fact that caused him to make that decision. He didn’t even think for a second about the billions of people who don’t have much money for dental care, let alone books.  That didn’t need to enter into his mind because he only had to focus on the segment of humanity that already had excess money.&lt;/p&gt;
-
-&lt;p&gt;This is the vicious cycle of a capitalist economy, all of the extremely useful things that could exist don’t get made because it is far more profitable to start a company focusing on those who already have excess wealth.&lt;/p&gt;
-
-&lt;p&gt;Here’s another one. It costs about the same to start a company that cleans 100 million peoples drinking water as it does to put 1 person into space. You know there is 1 person willing to spend $1 billion to go to space, and 100 million people with only $1 who want clean drinking water.  Would you rather start a business that cleans 100 million people’s water or one that puts 1 person into space?&lt;/p&gt;
-
-&lt;p&gt;This is other side of the problem cycle of capitalism. Bezos acquired vast amounts of wealth with which he could literally purchase anything he wanted.  So some engineers built a rocketship for Mr Bezos because, again, they only needed to work on a thing that could be sold to someone with extra money. There’s no limit to how few people an enterprise can benefit as long as that small group of people has enough wealth stored up.&lt;/p&gt;
-
-&lt;h3 id=&quot;markets-as-a-decision-making-tool&quot;&gt;Markets as a decision making tool&lt;/h3&gt;
-
-&lt;p&gt;For a long time now, human beings have been coming up with ways to allocate our time, effort, and natural resources to make the world easier and more ejoyable to live in for ourselves and each other.  There has been an ongoing challenge with this endeavor however: that it is incomprehensibly hard to figure out from the outset how to allocate resources to actually make people better off. To solve this problem as a society, many have argued that one of the best ways to get close to solving this problem is through the use of a distributed decision-making system known as a &lt;strong&gt;market&lt;/strong&gt;.  We’re all pretty familiar with markets, but just to make sure that the definition is clear, we can define a market as a system of exchange of goods where people mutually agree upon prices to allow for a transfer of anything available in an economy.  In general, for most things&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, using a market to figure out who gets what makes a lot of sense.&lt;/p&gt;
-
-&lt;p&gt;To see why, imagine there are 2 people and 1 boat in an economy.  Now, the 2 people each want a boat to different degrees, but between them they can figure out what price they would put on the boat, relative to other things, and then the person who puts the highest price on the boat is the person that wants it the most.  They give up their money in a free exchange to take the boat and the other person does something else with their money.&lt;/p&gt;
-
-&lt;p&gt;However, in reality there is a huge flaw that prevents that from really working because the two people can have vastly different amounts of wealth with which to purchase the boat.  It could turn out that one person really needs the boat, because they live on an island and can’t get to food unless they travel by boat to the mainland.   The other person could just be a very wealthy mainlander who wants to go for pleasure cruises and they set the price very high because they have a lot of extra money.&lt;/p&gt;
-
-&lt;p&gt;And this isn’t even the worst problem because an important part of a market is that it sets expectations for what to produce.  So if in our example the wealthy mainlander only ever wanted an airplane, then all the boatmakers probably would switch their careers to make airplanes to satisfy the wealthy person. In that case, even when a simple and affordable boat is all the islander needs, there isn’t anyone around to make it.&lt;/p&gt;
-
-&lt;p&gt;So is the market a good decision making tool? Are these cases just flukes?  Is there even a way to tell if this is a good system?&lt;/p&gt;
-
-&lt;h3 id=&quot;understanding-utility-maximization&quot;&gt;Understanding utility maximization&lt;/h3&gt;
-
-&lt;p&gt;To get into a little more of the nitty-gritty, utility theory is a way to mathematically describe how much good can be done with the resources on hand. This theory tries to describe how each thing in the world has some utility to any individual who is making use of it.  So you can assign units of utility to different items.  So, you could put 1 unit of utility on a boat and 10 units of utility on a bicycle.  But importantly, the same thing can have very different utilities to different people.  For example, the boat could have a utility of 100 for the person who needs it to get food, but a utility of 1 for someone who just enjoys riding on it a few times a year.&lt;/p&gt;
-
-&lt;p&gt;Sadly, it’s impossible to truly quantify how much utility would be given to each person for each thing in a society.  However, it is possible to use some assumptions to imagine the utility of an abstract economy.  One assumption is that it’s straightforward to understand how utility varies for a person depending on how many of something they have. Specifically we expect each unit of a resource to be progressively less valuable to a person (this is often described as diminishing returns).   As an example, if I have no bicycle to get around, I could expect my first bicycle to have a very high utility, while a second or third bicycle would probably have a lower utility.&lt;/p&gt;
-
-&lt;p&gt;Now even though its impossible to simultaneously measure all the utilities of everything in a society, our goal with a market is generally to allow people to spontaneously solve for their individual maximum utility, in the hope that this chaotic solution ends up giving us something close to the global maximum soltion.  If this were the case, then the utility of a thing would be well correlated with how much a person would be willing to spend on it. So in our example, we’d expect that I would be less willing to spend money on a thirtieth bike compared to the first one.&lt;/p&gt;
-
-&lt;p&gt;However, markets will fail to set prices in a way that maximize everyone’s utiltiy if people have vastly different amounts of money to spend.  This will result in fundamentally lower utility (aka an underutililization of the resources that are available). If you want to make more people better off this would be a bad thing.&lt;/p&gt;
-
-&lt;h3 id=&quot;simulations&quot;&gt;Simulations&lt;/h3&gt;
-
-&lt;p&gt;You don’t have to take my word on this. I’ve written a computer simulation of a very simple market for the exchange of goods.  In this market, each person has a utility for each item, and they are making very simple and straightforward decisions about how and when to trade what they have for money to try to increase their utility.&lt;/p&gt;
-
-&lt;p&gt;Although the trading model is simple[^3], it does indeed allow individuals to swap items for cash and then buy new items.  And over time, you can see that most people make decisions that lead to overall increasing personal utility of all the items in their possession.&lt;/p&gt;
-
-&lt;p&gt;The cool part is that we can start with a random assignment of wealth and items and people will trade to increase their utility overall.  And we can track the aggregate utility of everyone in the market and see that that is increasing too.&lt;/p&gt;
-
-&lt;p&gt;But here’s the problem, what happens if we let just 10% of the population have all the wealth to begin with.  Well, as you can see in this comparison, the total utility of the whole market is way way lower.  And we can see why: the wealthy 10% end up buying more and more items, driving up prices by trading with each other and pricing out all the people with way less wealth.&lt;/p&gt;
-
-&lt;h3 id=&quot;can-markets-optimize-for-utility&quot;&gt;Can markets optimize for utility?&lt;/h3&gt;
-
-&lt;p&gt;Sadly, many of us live in countries where 10% of the population does possess 90% of the wealth. In fact, in the United States, just 1% possesses 40% of the wealth.  This means that a situation much like the one above has occurred, where the price of many goods is set very high so that only the wealthiest can afford them.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, there is something really easy we can do to make it so that the price and utility are equivalent:  Everybody needs roughly the same amount of money stored up.&lt;/p&gt;
-
-&lt;p&gt;Now I’m not saying that everybody has to have the exact same amount of money, but the disparity can’t be as large as it is now without causing great practical problems that we see everyday.&lt;/p&gt;
-
-&lt;p&gt;One great way to get us back to a more stable distribution of wealth would be through a direct wealth tax like the one proposed by Elizabeth Warren this year.  It would take those people who have outlandish amounts of wealth (we’re talking hundreds of millions of dollars), and redirect that money back to everyone else.&lt;/p&gt;
-
-&lt;p&gt;So to ask yourself whether you believe in subjective value, you simply have to ask yourself whether the richest person’s opinions should determine the value of everything.&lt;/p&gt;
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Now, right from the beginning we know that there should already be some limits on markets, like for example, no organization should be able to buy the components to make a nuclear weapon without some sort of approval.  But it’s a good idea in general. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-
-          </description>
-          <pubDate>Fri, 15 Oct 2021 00:00:00 -0500</pubDate>
-          <link>https://leftwardist.org/commentary/2021/10/15/utility-maximization.html</link>
-          <guid isPermaLink="true">https://leftwardist.org/commentary/2021/10/15/utility-maximization.html</guid>
           
           
           <category>commentary</category>
